@@ -14,7 +14,6 @@ function vdm (data, client) {
 	.then(response2 => {
 	console.log(response2.vdm.content)
 	Avatar.speak(response2.vdm.content, data.client, function(){
-	//Avatar.speak(`${response2.query} : ${"ville:" + response2.city}`, data.client, function(){ 
 	Avatar.Speech.end(data.client);
 	});
 	})
