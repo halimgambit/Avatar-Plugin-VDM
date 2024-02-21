@@ -1,0 +1,10 @@
+{
+	"modules": { 
+		"VDM": {
+			"version": "1.0",
+			"name": "vdm",
+			"rules": ["vdm","fml"]
+		}
+	}
+}
+			
