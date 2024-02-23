@@ -18,7 +18,7 @@ function vdm (data, client) {
 	return response.json();
 	})
 	.then(response2 => {
-	Avatar.speak(response2.vdm.content, data.client, () => { 
+	Avatar.speak(`${response2.vdm.content} VDM`, data.client, () => { 
 	Avatar.Speech.end(data.client);
 	});
     })
